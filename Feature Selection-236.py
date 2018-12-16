@@ -77,5 +77,6 @@ test_mse = mean_squared_error(test_predictions, clean_test[target])
 train_rmse_2 = np.sqrt(train_mse)
 test_rmse_2 = np.sqrt(test_mse)
 
+
 print(train_rmse_2)
 print(test_rmse_2)
