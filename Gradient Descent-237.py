@@ -60,6 +60,5 @@ def gradient_descent(xi_list, yi_list, max_iterations, alpha, a1_initial, a0_ini
 
 # Uncomment when ready.
 a0_params, a1_params = gradient_descent(train['Gr Liv Area'], train['SalePrice'], 20, .0000003, 150, 1000)
-
 print(a0_params)
 print(a1_params)
